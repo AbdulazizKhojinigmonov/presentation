@@ -1,9 +1,29 @@
-*{
+@import url(./geometria/Geometria.ttf);
+@import url(./geometria/Geometria-Italic.ttf);
 
+body{
+    font-family: "Roboto", serif;
+  font-weight: 400;
+}
+*{
+    outline: 2px solid red;
+}
+.mainSection{
+    background-image: url(./photo/main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   height: 802px;
+
+}
+.mainHeader{
+    /* width: 1280px; */
+}
+.containerBody{
+    width: 1280px;
 }
 
 .mainWrapper{
-    width: 1280px;
+    /* width: 1280px; */
     height: 100px;
     border: 1px;
    background-color: #FFFFFFB2;
@@ -16,27 +36,36 @@
     padding-left: 60px;
     padding-right: 92px;
 }
-.mainPhoto{
-    width: 1280px;
-    height: 802px; 
- 
+.navItem{
+    color: #000000;
+    text-decoration: none;
+    font-weight:400 ;
+    font-size: 16px;
+    margin-right: 30px;
 }
 .button_order{
     padding-right: 60px;
 }
 .order{
-    
-    border-color: #EFA35A;
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid #EFA35A;
     padding-top: 15px;
     padding-left: 30px;
     padding-bottom: 15px;
     padding-right: 30px;
     background-color:#FFFFFF00;
+   
 }
 .callPhone{
     display: flex;
     align-items: center;
     height: 30px;
+}
+.num{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 400;
 }
 .phone{
     padding-right: 7.44px;
@@ -49,12 +78,380 @@
     color: #FFFFFF;
   
 }
-.position p{
+.positionTitle{
     font-size: 24px;
     font-weight: 400;
    
 }
-.position h1{
+.positionSubtitle{
+   display: flex;
+}
+.wordIq{
+    font-family: geo; 
+     font-weight: 800;
     font-size: 120px;
+    line-height: 151px;
+    color: #EFA35A;
+    margin-right: 10px;
+
+}
+.wordClub{
+    font-family: ;
     font-weight: 800;
+    font-size: 120px;
+    line-height: 151px;
+    color: #FFFFFF;
+
+}
+
+
+/*uje 2 section*/
+
+
+
+
+.sectionTWO{
+    margin-left: 80px;
+}
+h2{
+    font-size: 46px;
+    color: #EFA359;
+    text-transform: uppercase;
+}
+.secondWhapper{
+    /* display: flex;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.rightSection{
+    margin-left: 42px;
+   
+}
+.rightSection div p {
+    font-family: "Roboto", serif;
+    font-size: 25px;
+    line-height: 30px;
+    width: 547px;
+    margin-bottom: 40px;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.container img{
+    margin-right: 40px;
+    width: 45px;
+    height: 45px;
+}
+.container p{
+    font-size: 24px;
+    font-family: "Roboto", serif;
+}
+
+
+
+/*uje 3 section*/
+
+
+.sectionTHE{
+    margin-left: 80px;
+}
+.lineText{
+    display: flex;
+    justify-content: space-between;
+   
+    margin-bottom: 40px;
+    margin-top: 140px;
+}
+
+/* .lineorange{
+    border-top:1px solid #FF7E00 ;
+    width: 300px;
+    height: 1px;
+} */
+
+.blackText{
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 58px;
+    color: #000000;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+.orangeText{
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 58px;
+    color: #EFA359;
+    text-transform: uppercase;
+}
+.lineText ::after{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 632px;
+    background-color: #EFA35A;
+    top: 1698px;
+    left: 534px;
+    border: 1px;
+    
+}
+/* .lineText::after{
+    position: absolute;
+    content: "";
+    height: 2px;
+    background-color: #EFA35A;
+    width: 63px;
+    top: 1700px;
+    left: 1220px;
+    border: 3px;
+}    */
+/* .numberONE{
+position: absolute;
+width: 33px;
+height: 33px;
+top: 2637px;
+left: 935x;
+
+} */
+.photoMap{
+    background-image: url(./photo/Указатели\ \(1\).png);
+    /* width: 1157px; */
+    height: 680px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* uje 4 section*/
+
+
+.sectionFour{
+    margin-left: 80px;
+}
+.miniCont{
+    display: flex;
+    gap: 103px;
+}
+.miniText{
+    font-family: "Roboto", serif;
+    font-size: 24px;
+    font-weight: 400;
+
+}
+.cardContainer{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.card{
+    border: 1px solid #EFA35A;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+  
+
+}
+.number{
+    background-color: #FF7E00;
+    color: white;
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.title{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.time{
+    font-size: 18px;
+    font-weight: 800;
+}
+.icon{
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+
+
+/*5 section*/
+
+
+.GalleryPhoto{
+    padding: 20px 20px;
+        border-radius: 12px;  
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-between; 
+        bor
+}
+
+
+/*6 section*/
+.layout-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    color: #f4a742;
+}
+.layoutContainer{
+    /* display: flex; */
+}
+.description  {
+    font-size: 30px;
+    width: 511px;
+
+}
+.description ul{
+    list-style: none;
+    padding: 0;
+}
+.description ul li {
+    margin-bottom: 10px;
+}
+.description ul li::before{
+    content: '\2713';
+    color: #f4a742;
+    margin-right: 10px;
+}
+.features {
+    margin-top: 20px;
+    font-size: 27px;
+    font-weight: 700;
+    color: #333;
+    width: 442px;
+}
+
+.features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.features ul li {
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+
+.features ul li:before {
+    content: '\2713';
+    color: #f4a742;
+    margin-right: 10px;
+}
+.house{
+    display: flex;
+    gap: 0px;
+    margin-top: 20px;
+}
+.house img {
+    width: 100%;
+   
+}
+.floor-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.floor {
+    background-color: #f4a742;
+    color: white;
+    padding: 17px 40px;
+    
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.floor.secondary {
+    background-color: white;
+    color: #333;
+    border: 2px solid #EFA35A;
+}
+
+
+/*7section*/
+
+.availableHouse{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.leftHouse{
+    display: block;   
+}
+.houseName{
+    font-size: 20px;
+    font-weight: 700;
+}
+.cost{
+    font-size: 20px;
+    font-weight: 400;
+}
+.costPrice{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+.priceInfo{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    display: inline-block;
+    background-color: #f4a742;
+    color: white;
+    text-align: center;
+    padding: 20px 32px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    margin-top: 28px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.btn:hover {
+    background-color: #e89630;
+}
+
+
+/*section 8*/
+
+.sectionEight{
+    background-image: url(./photo/section8.png);
+    height: 436px;
+
+}
+
+/*section9*/
+.homeName{
+    font-size: 30px;
+    font-weight: 500;
+}
+.forSale{
+    font-size: 20px;
+    font-weight: 400;
+    color: #EFA35A;
+}
+.wayToHome::before{
+    content: '\1F4CD';
 }
