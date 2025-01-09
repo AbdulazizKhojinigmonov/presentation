@@ -192,9 +192,9 @@ h2{
     position: absolute;
     content: "";
     height: 2px;
-    width: 632px;
+    width: 536px;
     background-color: #EFA35A;
-    top: 1698px;
+    top: 1900px;
     left: 534px;
     border: 1px;
     
@@ -320,7 +320,8 @@ left: 935x;
     color: #f4a742;
 }
 .layoutContainer{
-    /* display: flex; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .description  {
     font-size: 30px;
@@ -362,12 +363,12 @@ left: 935x;
     color: #f4a742;
     margin-right: 10px;
 }
-.house{
+.sectionSixLeft{
     display: flex;
     gap: 0px;
     margin-top: 20px;
 }
-.house img {
+.sectionSixLeft img {
     width: 332px;
    
 }
@@ -703,8 +704,13 @@ h4{
     margin-left: 40px;
 }
 
-@media(max-widt:1000px ){
-    .mainWrapper{
+
+
+@media (max-width:1000px ){
+    .mainWrapper div{
         display: none;
+    }
+    .phone{
+
     }
 }
