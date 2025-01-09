@@ -188,7 +188,7 @@ h2{
     color: #EFA359;
     text-transform: uppercase;
 }
-.lineText ::after{
+/* .lineText ::after{
     position: absolute;
     content: "";
     height: 2px;
@@ -198,7 +198,8 @@ h2{
     left: 534px;
     border: 1px;
     
-}
+} */
+ 
 /* .lineText::after{
     position: absolute;
     content: "";
@@ -256,7 +257,7 @@ left: 935x;
     padding: 16px;
     text-align: center;
   
-
+    rrrrrrrr
 }
 .number{
     background-color: #FF7E00;
