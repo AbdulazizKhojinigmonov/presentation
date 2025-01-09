@@ -5,9 +5,9 @@ body{
     font-family: "Roboto", serif;
   font-weight: 400;
 }
-*{
+/* *{
     outline: 2px solid red;
-}
+} */
 .mainSection{
     background-image: url(./photo/main.png);
     background-repeat: no-repeat;
@@ -96,7 +96,7 @@ body{
 
 }
 .wordClub{
-    font-family: ;
+    
     font-weight: 800;
     font-size: 120px;
     line-height: 151px;
@@ -157,12 +157,12 @@ h2{
 
 
 .sectionTHE{
-    margin-left: 80px;
+    padding: 10px 80px;
 }
 .lineText{
     display: flex;
     justify-content: space-between;
-   
+   margin-left: 60px;
     margin-bottom: 40px;
     margin-top: 140px;
 }
@@ -230,7 +230,7 @@ left: 935x;
 
 
 .sectionFour{
-    margin-left: 80px;
+  padding: 10px 80px;
 }
 .miniCont{
     display: flex;
@@ -289,18 +289,26 @@ left: 935x;
 
 /*5 section*/
 
+.splideGaller{
+    padding: 10px 80px;
+}
 
 .GalleryPhoto{
     padding: 20px 20px;
-        border-radius: 12px;  
-        display: flex;
-        /* flex-direction: column; */
-        justify-content: space-between; 
-        bor
+    border-radius: 12px;  
+    display: flex;
+     /* flex-direction: column; */
+     justify-content: space-between; 
+       
 }
 
 
+
+
 /*6 section*/
+.sectionSix{
+    padding: 10px 80px;
+}
 .layout-title {
     font-size: 28px;
     font-weight: bold;
@@ -360,7 +368,7 @@ left: 935x;
     margin-top: 20px;
 }
 .house img {
-    width: 100%;
+    width: 332px;
    
 }
 .floor-info {
@@ -389,10 +397,14 @@ left: 935x;
 
 
 /*7section*/
+.sectionSeven{
+    padding: 0px 80px;
+}
 
 .availableHouse{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
     gap: 20px;
 }
 .leftHouse{
@@ -439,10 +451,79 @@ left: 935x;
 .sectionEight{
     background-image: url(./photo/section8.png);
     height: 436px;
+    margin-top: 130px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
 
+
+
+.content {
+   
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 840px;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 15px;
+}
+
+h1 span {
+    color: orange;
+}
+
+.availability {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    margin-bottom: 40px;
+}
+
+.availability span {
+    color: orange;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+button {
+    padding: 23px 30px;
+    font-size: 22px;
+ 
+    cursor: pointer;
+}
+
+.contact-manager {
+    background-color: orange;
+    color: white;
+}
+
+.leave-application {
+    background-color: white;
+    color: black;
 }
 
 /*section9*/
+.sectionNine{
+    padding: 10px 80px;
+}
 .homeName{
     font-size: 30px;
     font-weight: 500;
@@ -454,4 +535,176 @@ left: 935x;
 }
 .wayToHome::before{
     content: '\1F4CD';
+}
+/*10 section*/
+.sectionTen{
+    padding: 10px 80px;
+}
+.mainMap{
+    background-image: url(./photo/section10.png);
+    height: 680px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+h4{
+    font-size: 40px;
+    font-weight: 400;
+}
+.contactText{
+    position: absolute;
+    top: 60px;
+    max-width: 522px;
+    height: 594px;
+    text-align: center;
+   
+    background-color: #FFFFFF;
+    margin-left: 30px;
+}
+.contactText p{
+    font-size: 23px;
+    line-height: 27px;
+}
+.address{
+    display: flex;
+    justify-content: center;
+}
+.address img {
+    width: 27px;
+    height: 34px;
+    margin-top: 20px;
+    margin-right: 18px;
+}
+.address p{
+    font-size: 30px;
+    line-height: 35px;
+} 
+.contactTime{
+    display: flex;
+    justify-content: center;
+}
+.contactTime img{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 18px;
+}
+.contactTime p{
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.telephoneNumber{
+    display: flex;
+    justify-content: center;
+}
+.telephoneNumber img{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 18px;
+}
+.telephoneNumber p{
+    font-size: 30px;
+    line-height: 35px;
+
+}
+.contactMap{
+    background-color: #EFA359;
+    color: #FFFFFF;
+    padding: 15px 30px;
+}
+
+/*footer*/
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+
+.footer-column h3 {
+    font-size: 25px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid orange;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-left: 40px;
+}
+
+.footer-column ul {
+    list-style: none;
+    margin: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 14px;
+}
+
+.footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.logo-section {
+    text-align: center;
+}
+
+.footer-logo {
+    max-width: 240px;
+    margin-bottom: 50px;
+}
+
+.social-icons {
+    margin: 40px 0;
+}
+
+.social-icons a {
+    margin: 0 5px;
+  
+}
+
+.social-icons img {
+    width: 45px;
+    height: 45px;
+  
+}
+.footer-mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+
+}
+.footer-mail img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.email {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.privacy-policy {
+    font-size: 16px;
+    color: #ccc;
+    margin-left: 40px;
+}
+
+@media(max-widt:1000px ){
+    .mainWrapper{
+        display: none;
+    }
 }
