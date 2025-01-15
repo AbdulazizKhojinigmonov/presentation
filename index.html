@@ -13,53 +13,76 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
+      
 </head>
 
 <body>
-   
+
+    <header class="mainHeader">
+
+        <div class="mainWrapper">
+            <img src="./photo/Лого.png" alt="logo" class="mainLogo">
+
+            <div class="navItemBox">
+                <a class="navItem" href="@">Наши проекты</a>
+                <a class="navItem" href="@">Дома</a>
+                <a class="navItem" href="@">Ипотека</a>
+                <a class="navItem" href="@">О компании</a>
+                <a class="navItem" href="@">Контакты</a>
+            </div>
+
+            <div class="callPhone">
+                <img src="./photo/ph_phone.png" alt="" class="phone">
+                <a class="num" href="#">+7 (962) 555-25-25</a>
+            </div>
+
+            <div class="button_order">
+                <a class="order" href="#">Заказать звонок</a>
+            </div>
+
+
+       <div class="menuBox ">
+        <ul class="menu">
+            <li><a class="menuItem" href="#">Home</a></li>
+            <li><a class="menuItem" href="#">Profile</a></li>
+            <li><a class="menuItem" href="#">About</a></li>
+            <li><a class="menuItem" href="#">Contacts</a></li>
+          </ul>
+          <button class="hamburger">
+            <!-- material icons https://material.io/resources/icons/ -->
+            <i class="menuIcon material-icons">menu</i>
+            <i class="closeIcon material-icons">close</i>
+          </button>
+       </div>
+
+
+    </header>
+
     <section class="mainSection">
 
-        <header class="mainHeader">
-            <div class="mainWrapper">
-                <img src="./photo/Лого.png" alt="logo" class="mainLogo">
 
-                <div>
-                    <a class="navItem" href="@">Наши проекты</a>
-                    <a class="navItem" href="@">Дома</a>
-                    <a class="navItem" href="@">Ипотека</a>
-                    <a class="navItem" href="@">О компании</a>
-                    <a class="navItem" href="@">Контакты</a>
-                </div>
 
-                <div class="callPhone">
-                    <img src="./photo/ph_phone.png" alt="" class="phone">
-                    <a class="num" href="#">+7 (962) 555-25-25</a>
-                </div>
 
-                <div class="button_order">
-                    <a class="order" href="#">Заказать звонок</a>
-                </div>
+
+        <div class="position">
+            <div class="positionTitle">Современный таунхаус-клуб в Казани</div>
+            <div class="positionSubtitle">
+                <div class="wordIq">IQ</div>
+                <div class="wordClub">CLUB</div>
             </div>
-
-
-            <div class="position">
-                <div class="positionTitle">Современный таунхаус-клуб в Казани</div>
-                <div class="positionSubtitle">
-                    <div class="wordIq">IQ</div>
-                    <div class="wordClub">CLUB</div>
-                </div>
-            </div>
-
-        </header>
+        </div>
     </section>
-   
 
 
+
+
+
+    <!-- 
     <section class="sectionTWO">
-        <h2>о проекте</h2>
+        <h2>о <span> проекте</span> </h2>
         <div class="secondWhapper">
             <div class="leftPhoto">
-                <img src="./photo/Group 310.png" alt="">
+                <img src="./photo/Group 310.png" alt="" class="photoSectiontwo">
             </div>
             <div class="rightSection">
                 <div>
@@ -68,33 +91,35 @@
                         частном секторе и удобств общего пользования, таких как парк. детские площадки, зона для барбекю
                         и спортивные площадки. </p>
                 </div>
-                <div class="container">
-                    <img src="./photo/city.png" alt="">
-                    <p>Комфорт закрытого клуба внутри города</p>
-                </div>
-                <div class="container">
-                    <img src="./photo/people.png" alt="">
-                    <p>Просторная квадратура для жизни <br>большой семьи</p>
-                </div>
-                <div class="container">
-                    <img src="./photo/center.png" alt="">
-                    <p>Развитая инфраструктура вокруг </p>
-                </div>
-                <div class="container">
-                    <img src="./photo/camera.png" alt="">
-                    <p>Закрытая территория с пропускной <br>системой безопасности</p>
+                <div class="bigContainer">
+                    <div class="container">
+                        <img src="./photo/city.png" alt="">
+                        <p>Комфорт закрытого клуба внутри города</p>
+                    </div>
+                    <div class="container">
+                        <img src="./photo/people.png" alt="">
+                        <p>Просторная квадратура для жизни <br>большой семьи</p>
+                    </div>
+                    <div class="container">
+                        <img src="./photo/center.png" alt="">
+                        <p>Развитая инфраструктура вокруг </p>
+                    </div>
+                    <div class="container">
+                        <img src="./photo/camera.png" alt="">
+                        <p>Закрытая территория с пропускной <br>системой безопасности</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-   
+
 
 
     <section class="sectionTHE">
         <div class="lineText">
             <h3 class="blackText">План<span class="orangeText"> Посёлка</span></h3>
-           
+
             <!-- <h2>dom</h2>
             <div class="lineorange"></div> -->
         </div>
@@ -111,12 +136,13 @@
     </section>
 
 
- 
+
 
     <section class="sectionFour">
         <div class="lineText">
-            <h3 class="blackText">Транспортная 
-            <span class="orangeText">Доступность</span> </h3>
+            <h3 class="blackText">Транспортная
+                <span class="orangeText">Доступность</span>
+            </h3>
         </div>
         <div class="miniCont">
             <div class="miniText">
@@ -165,82 +191,82 @@
 
 
 
-   
+
     <section class="splideGallery" aria-labelledby="carousel-heading">
         <div class="lineText">
-            <h3 class="blackText"> Галерея 
-            <span class="orangeText"> построенных домов</span></h3>
+            <h3 class="blackText"> Галерея
+                <span class="orangeText"> построенных домов</span>
+            </h3>
         </div>
         <div class="splide__track">
             <ul class="splide__list">
                 <li class="splide__slide GalleryPhoto">
-                    <img src="./photo/foto_1.png" alt="">
+                    <img src="./photo/foto_2.png" alt="">
                 </li>
                 <li class="splide__slide GalleryPhoto">
                     <img src="./photo/foto_2.png" alt="">
                 </li>
                 <li class="splide__slide GalleryPhoto">
-                    <img src="./photo/foto_3.png" alt="">
+                    <img src="./photo/foto_2.png" alt="">
                 </li>
             </ul>
         </div>
     </section>
 
-   
-  
+
+
 
     <section class="sectionSix">
 
-
-        
-        <h2 class="layout-title">ПЛАНИРОВКИ<span class="highlight">ТАУНХАУСОВ</span></h2>
+        <h2 class="layout-title">ПЛАНИРОВКИ<span class="highlight"> ТАУНХАУСОВ</span></h2>
         <div class="layoutContainer">
-           
+
             <div class="sectionSixRight">
-            <div class="description">
-                Таунхаусы в поселке IQ Club представлены в двух вариантах планировки:
-                <ul>
-                    <li>площадью в N квадратных метров</li>
-                    <li>площадью в N квадратных метров</li>
-                </ul>
+                <div class="description">
+                    Таунхаусы в поселке IQ Club представлены в двух вариантах планировки:
+                    <ul>
+                        <li>площадью в N квадратных метров</li>
+                        <li>площадью в N квадратных метров</li>
+                    </ul>
+                </div>
+                <div class="features">
+                    <strong>КАЖДЫЙ ТАУНХАУС ВКЛЮЧАЕТ В СЕБЯ:</strong>
+                    <ul>
+                        <li>Гостиная</li>
+                        <li>2 спальных комнаты </li>
+                        <li>3 ванные комнаты </li>
+                        <li>1 комната свободной планировки </li>
+                        <li>Детская комната</li>
+                    </ul>
+                </div>
+                <div class="floor-info">
+                    <div class="floor secondary">Первый этаж<br>75 м²</div>
+                    <div class="floor">Второй этаж<br>75 м²</div>
+                </div>
             </div>
-            <div class="features">
-                <strong>КАЖДЫЙ ТАУНХАУС ВКЛЮЧАЕТ В СЕБЯ:</strong>
-                <ul>
-                    <li>Гостиная</li>
-                    <li>2 спальных комнаты </li>
-                    <li>3 ванные комнаты </li>
-                    <li>1 комната свободной планировки </li>
-                    <li>Детская комната</li>
-                </ul>
-            </div>
-            <div class="floor-info">
-                <div class="floor secondary">Первый этаж<br>75 м²</div>
-                <div class="floor">Второй этаж<br>75 м²</div>
-            </div>
-        </div>
             <div class="sectionSixLeft">
                 <img src="./photo/floor1.png" alt="" class="floorFirst">
                 <img src="./photo/floor2.png" alt="" class="floorSecond">
             </div>
-           
+
         </div>
     </section>
 
 
-   
+
     <section class="sectionSeven">
         <div class="lineText">
-            <h3 class="blackText"> В настоящее время 
-            <span class="orangeText"> для покупки </span><span> доступны:</span></h3>
+            <h3 class="blackText"> В настоящее время
+                <span class="orangeText"> для покупки </span><span> доступны:</span>
+            </h3>
         </div>
         <div class="availableHouse">
             <div class="leftHouse">
-                <img src="./photo/left.png" alt="" >
+                <img src="./photo/left.png" alt="">
                 <div class="priceInfo">
-                    <div class="extraInformation" >
+                    <div class="extraInformation">
                         <p class="houseName">ТАУНХАУС 136 м.</p>
-                        <p class="cost">Цена от  <span class="costPrice">   15 500 000 ₽</span></p>
+                        <p class="cost">Цена от <span class="costPrice"> 15 500 000 ₽</span></p>
                     </div>
                     <div class="">
                         <a href="#" class="btn">Идёт продажа</a>
@@ -250,74 +276,77 @@
             <div class="rightHouse">
                 <img src="./photo/right.png" alt="">
                 <div class="priceInfo">
-                 <div class="extraInformation"> 
-                    <p class="houseName">ТАУНХАУС 134 м.</p>
-                    <p class="cost">Цена от  <span class="costPrice">   12 500 000 ₽</span></p>
-                 </div>
-                <div>
-                    <a href="#" class="btn">Идёт продажа</a>
+                    <div class="extraInformation">
+                        <p class="houseName">ТАУНХАУС 134 м.</p>
+                        <p class="cost">Цена от <span class="costPrice"> 12 500 000 ₽</span></p>
+                    </div>
+                    <div>
+                        <a href="#" class="btn">Идёт продажа</a>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+
+
+
+
+    <section>
+        <div class="sectionEight">
+            <div class="content">
+                <h1>СПЕШИТЕ ЗАБРОНИРОВАТЬ КОМФОРТНЫЙ ТАУНХАУС В КЛУБЕ <span>IQ CLUB</span></h1>
+                <p class="availability">Количество свободных участков: <span>12</span></p>
+                <div class="buttons">
+                    <button class="contact-manager">СВЯЗАТЬСЯ С МЕНЕДЖЕРОМ</button>
+                    <button class="leave-application">ОСТАВИТЬ ЗАЯВКУ</button>
                 </div>
             </div>
-
         </div>
     </section>
 
 
 
 
-<section>
-    <div  class="sectionEight">
-        <div class="content">
-            <h1>СПЕШИТЕ ЗАБРОНИРОВАТЬ КОМФОРТНЫЙ ТАУНХАУС В КЛУБЕ <span>IQ CLUB</span></h1>
-            <p class="availability">Количество свободных участков: <span>12</span></p>
-            <div class="buttons">
-                <button class="contact-manager">СВЯЗАТЬСЯ С МЕНЕДЖЕРОМ</button>
-                <button class="leave-application">ОСТАВИТЬ ЗАЯВКУ</button>
-            </div>
+
+    <section class="sectionNine">
+        <div class="lineText">
+            <h3 class="blackText"> дРУГИЕ
+                <span class="orangeText"> ПРОЕКТЫ</span>
+            </h3>
         </div>
-    </div>
-</section>
+        <div class="availableHouse">
+            <div class="leftHouse">
+                <img src="./photo/section9left.png" alt="">
+                <div class="priceInfo">
+                    <div class="extraInformation">
+                        <p class="homeName">ИЗУМРУДНЫЙ VILLAGE</p>
+                        <p class="wayToHome">8 минут от метро Дубравная. <span class="forSale"> Дома сдаются</span></p>
+                    </div>
 
-
-
-
-
-<section class="sectionNine">
-    <div class="lineText">
-        <h3 class="blackText"> дРУГИЕ
-        <span class="orangeText"> ПРОЕКТЫ</span></h3>
-    </div>
-    <div class="availableHouse">
-        <div class="leftHouse">
-            <img src="./photo/section9left.png" alt="" >
-            <div class="priceInfo">
-                <div class="extraInformation" >
-                    <p class="homeName">ИЗУМРУДНЫЙ VILLAGE</p>
-                    <p class="wayToHome">8 минут от метро Дубравная.  <span class="forSale">  Дома сдаются</span></p>
                 </div>
-                
             </div>
-        </div>
-        <div class="rightHouse">
-            <img src="./photo/section9right.png" alt="">
-            <div class="priceInfo">
-             <div class="extraInformation"> 
-                <p class="homeName">Дома в Зимней Горке</p>
-                <p class="wayToHome">10 минут от Казанского аэропорта.   <span class="forSale">  Все дома сданы</span></p>
-             </div>
-            
-        </div>
+            <div class="rightHouse">
+                <img src="./photo/section9right.png" alt="">
+                <div class="priceInfo">
+                    <div class="extraInformation">
+                        <p class="homeName">Дома в Зимней Горке</p>
+                        <p class="wayToHome">10 минут от Казанского аэропорта. <span class="forSale"> Все дома
+                                сданы</span></p>
+                    </div>
 
-    </div>
-</section>
+                </div>
+
+            </div>
+    </section>
 
 
-  
 
-     <section class="sectionTen">
+
+    <section class="sectionTen">
         <div class="lineText">
             <h3 class="blackText"> ОФИС
-            <span class="orangeText"> ПРОДАЖ</span></h3>
+                <span class="orangeText"> ПРОДАЖ</span>
+            </h3>
         </div>
         <div class="mainMap">
             <div class="contactText">
@@ -338,11 +367,11 @@
                 <button class="contactMap" type="click">Проложить маршрут</button>
             </div>
         </div>
-     </section>
-     
+    </section>
 
-   
-     <footer class="footer">
+
+
+    <footer class="footer">
         <div class="footer-container">
             <div class="footer-column">
                 <h3>О КОМПАНИИ</h3>
@@ -376,18 +405,18 @@
             </div>
             <div class="footer-column logo-section">
                 <img src="./photo/footer logo.png" alt="Windom Logo" class="footer-logo">
-                
+
                 <div class="social-icons">
                     <a href="#"><img src="./photo/footer YouTube.png" alt="YouTube"></a>
                     <a href="#"><img src="./photo/footer-vk.png" alt="VK"></a>
                     <a href="#"><img src="./photo/footer insta.png" alt="Insta"></a>
                     <a href="#"><img src="./photo/footer twitter.png" alt="Twiter"></a>
                 </div>
-                    <div class="footer-mail">
-                        <img src="./photo/footer mail.png" alt="">
-                       <p class="email">windom.kazan@gmail.com</p>
-                    </div>
-    
+                <div class="footer-mail">
+                    <img src="./photo/footer mail.png" alt="">
+                    <p class="email">windom.kazan@gmail.com</p>
+                </div>
+
             </div>
         </div>
         <p class="privacy-policy">Политика конфиденциальности</p>
@@ -395,8 +424,8 @@
 
 
 
-    
-   <script>
+
+    <script>
         document.addEventListener('DOMContentLoaded', function () {
             var splide = new Splide('.splide.Gallery', {
                 perPage: 1,
